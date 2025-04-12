@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+
+.currentIMG {
+  width: 445px;
+  height: 445px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.allImgs {
+  display: flex;
+  gap: 31px;
+  margin-top: 32px;
+}
+
+.allImgs img {
+  width: 88px;
+  height: 88px;
+  border-radius: 10px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 50%;
+}
+
+.right h1 {
+  color: #1d2026;
+  font-family: "Kumbh Sans";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; 
+}
+
+.right h3 {
+  color: #ff7e1b;
+
+  font-family: "Kumbh Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.right p {
+  color: #69707d;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 1000px) {
+  section {
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+  }
+}
+.layout{
+  width: 1110;
+height: 50;
+top: 28px;
+left: 165px;
+display: flex;
+justify-content: center;
+gap: 100px;
+margin-left: 20px;
+}
+.logo{
+  
+  width: 30px;
+  height: 30px;
+  margin-top: 8px;
+  border-radius: 15px;
+}
+.raodenoba{
+  height: 45px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.raodenoba h2{
+  font-family: 'Kumbh Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; 
+  color: #1d2026;
+}
+.raodenoba button{
+  width: 100px;
+  height: 40px;
+  background: #ff7e1b;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-family: 'Kumbh Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.right h6, h5{
+  color: #1d2026;
+  font-family: "Kumbh Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; 
+}
